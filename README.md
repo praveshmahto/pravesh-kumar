@@ -46,7 +46,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
+Experience the live portfolio at [https://pravesh-kumar.vercel.app](https://pravesh-kumar.vercel.app)
 
 ## 🛠️ Installation
 

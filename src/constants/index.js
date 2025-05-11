@@ -3,6 +3,8 @@ import {
   python,
   java,
   cpp,
+  dataEngineering,
+  sql,
   javascript,
   html,
   css,
@@ -20,6 +22,10 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  uq,
+  eyecon,
+  IP,
+  infosys
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +44,10 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
   { title: "Python", icon: python },
   { title: "Java", icon: java },
+  { title: "Data Engineering", icon: dataEngineering },
+  { title: "SQL", icon: sql },
 ];
 
 export const technologies = [
@@ -56,41 +62,76 @@ export const technologies = [
 ];
 
 export const experiences = [
+ 
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Data Engineer + Developer",
+    company_name: "EYECON (PLAYTECH)",
+    icon: eyecon,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Sep 2023 - Till Date",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Applied advanced analytical and machine learning techniques using Python and SQL, to analyse large data sets of customer and digital data, uncovering actionable strategic insights.",
+      "Apply lakehouse architecture to business use-case. Set up end-end ETL pipeline ,extract data from external source, transform and load the data into Databricks Lakehouse.",
+      "Utilized Databricks and AWS Glue to create and manage ETL pipelines, ensuring efficient data processing and integration.",
+      "Utilised JavaScript and TypeScript for front-end development and ensured seamless integration with Java-based back-end services.",
+      "Extensive use of SQL queries to retrieve and manipulate data from databases, ensuring efficient performance.",
+      "Also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building."
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "Software Developer.",
+    company_name: "UQ( University of Queensland)",
+    icon: uq,
+    iconBg: "#161329",
+    date: "Feb 2021- 2023",
+    points: [
+      "Workflow automation for Business Process Digitisation and Automation leveraging AI.",
+      "Utilised Python and Java for data analysis, feature engineering, and model development.",
+      "Implemented AI agent for data analysis using Spring AI and Python",
+      "Deployment of Docker using Jenkins in AWS Infrastructure(EC2, Elastic Beanstalk, S3, RDS)",
+      "Participate in all Agile meetings(daily scrum, backlog grooming,Sprint review, retrospective)."
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "INTELLIGENT PATHWAYS (Working for UQ Client)",
+    icon: IP,
+    iconBg: "#161329",
+    date: "June 2018 - Feb 2021",
+    points: [
+      "Development on BPM(Business Process Management) to enable workflow automation using wide stack of technologies(Java 8, Javascript, AngularJS,REST API ,Maven,GIT, SQL)",
+      "Implement programming tasks as per the functional requirement.",
+      "Work within a common set of programming conventions, practises and methodologies within the development team.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "INFOSYS",
+    icon: infosys,
+    iconBg: "#161329",
+    date: "(Sep 2014 - April,2018):",
+    points: [
+      "Implement programming tasks as per the functional requirement.",
+      "Participate in all Agile meetings(daily scrum, backlog grooming,Sprint review, retrospective).",
+      "Participated in various design discussions both at project and proposal stages.",
+      "Front-ended client meeting / release meeting and coordinated with different groups in clients/developers/production support/QA for solving the issues.",
+      "Work within a common set of programming conventions, practises and methodologies within the development team"
+    ],
+  },
+  {
+    title: "Mathwork Ai ",
+    company_name: "PERSONAL HOBBY",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
-    points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "Ongoing",
     points: [
       "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
+      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
+      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+       "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
       "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
     ],
-  },
+  }
 ];
 
 export const projects = [

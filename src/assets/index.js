@@ -2,12 +2,20 @@
 import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import eyecon from "./company/eyecon.jpeg";
+import uq from "./company/UQ.jpeg";
+import IP from "./company/IP.png";
+import infosys from "./company/infosys.png";
+
+
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
 import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
+import dataEngineering from "./tech-stack/data-engineering.png";
+import sql from "./tech-stack/sql.jpeg";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
@@ -41,6 +49,8 @@ export {
   c,
   cpp,
   java,
+  dataEngineering,
+  sql,
   github,
   css,
   git,
@@ -60,4 +70,8 @@ export {
   menu,
   close,
   eduskill,
+  uq,
+  eyecon,
+  IP,
+  infosys
 };

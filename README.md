@@ -10,7 +10,7 @@
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fpravesh-kumar.vercel.app)](https://portfolio-lohit.vercel.app)
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fpravesh-kumar.vercel.app)](https://pravesh-kumar.vercel.app)
 [![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
 
 <p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
@@ -53,7 +53,7 @@ Experience the live portfolio at [https://pravesh-kumar.vercel.app](https://prav
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
+git clone https://github.com/praveshmahto/pravesh-kumar
 ```
 
 2️⃣ Navigate to project directory:
